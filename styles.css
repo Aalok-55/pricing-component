@@ -1,6 +1,6 @@
 body {
   height: 200px;
-  background-color: #fffff;
+  background-color: #ffffff;
   box-sizing: border-box;
 }
 
@@ -34,8 +34,8 @@ section {
   padding: 20px;
 }
 billing {
-  text-align: ;
-  justify-content: ;
+  /* text-align: ;
+  justify-content: ; */
 }
 .additional_info {
   padding: 7px;
