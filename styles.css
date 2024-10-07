@@ -1,17 +1,17 @@
 body {
-  height: 200px;
   background-color: #fffff;
   box-sizing: border-box;
+  font-family: verdana;
 }
 
 main {
   padding: auto;
   width: 800px;
-  height: 600px;
+  height: 500px;
   background-image: url("images/bg-pattern.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 20vw auto;
+  margin: 5vw auto;
   padding: 20px;
   text-align: center;
   box-shadow: 5px 5px 5px 5px grey;
@@ -33,15 +33,22 @@ section {
   text-align: center;
   padding: 20px;
 }
-billing {
-  text-align: ;
-  justify-content: ;
+.pageviews > span:first-of-type {
+  padding: 20px 0 0 0;
 }
+#perMonth {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .additional_info {
-  padding: 7px;
+  padding: 50px 0 0 0;
+  width: 450px;
+}
+input[type="range"] {
 }
 input[type="submit"] {
-  height: 5vw;
+  height: 40px;
   border-radius: 20px;
   width: 150px;
   background-color: rgb(43, 51, 84);
@@ -53,6 +60,17 @@ input[type="submit"] {
   color: rgb(241, 153, 118);
   background-color: rgb(251, 237, 231);
   border-radius: 50px;
-  width: 100px;
+  width: 120px;
   font-size: 0.9rem;
+}
+div {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+ul {
+  text-align: left;
+}
+.button {
+  padding-top: 40px;
 }
