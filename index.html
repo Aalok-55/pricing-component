@@ -16,29 +16,37 @@
     <main>
       <header>
         <h1>Simple, traffic-based pricing</h1>
-        <p>Sign-up for our 30-day trial. No credit card required.</p>
+        <span
+          ><p>Sign-up for our 30-day trial.</p>
+          <p>No credit card required.</p></span
+        >
       </header>
       <section>
-        <div class="pageviews">
-          <span>100K PAGEVIEWS</span>
-          <span>
-            <span id="perMonth">$16.00 </span>
+        <div class="slider-area">
+          <span id="pageviews">100K PAGEVIEWS</span>
+
+          <span class="price">
+            <span id="perMonth">$16.00</span>
             <span>/month</span>
           </span>
-        </div>
-        <label>
           <input type="range" min="0" max="4" step="1" id="slider" />
-          <p class="billing">
-            <span>
-              Monthly Billing
-              <input type="checkbox" />
-              Yearly billing
-            </span>
-            <span class="discount">23% discount</span>
-          </p>
-        </label>
+        </div>
+
+        <div class="billing">
+          <span> Monthly Billing</span>
+          <label for="toggle">
+            <input type="checkbox" id="toggle" />
+
+            <div class="check"></div
+          ></label>
+
+          <span>Yearly billing</span>
+
+          <span class="discount">-25% discount</span>
+        </div>
+
         <div class="additional_info">
-          <span>
+          <span class="listed_items">
             <ul>
               <li>Unlimited websites</li>
               <li>100% data ownership</li>
